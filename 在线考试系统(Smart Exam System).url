@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://192.168.60.15:8080/Manager/default.aspx
+[DOC_mainFrame]
+BASEURL=http://192.168.60.15:8080/Manager/Module/SmartExamSystem/PaperMaintenance/CourseManager/Default.aspx?CMD=UnPublish
+ORIGURL=right.aspx
+[InternetShortcut]
+URL=http://192.168.60.15:8080/Manager/default.aspx
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

@@ -1,0 +1,1446 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>用计算机处理数据excel</title>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/shared.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxController.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxSettings.js"></script>
+   <link href="Res/styles/shared.css" rel="stylesheet" type="text/css">
+   <link href="Res/styles/StaticOutline.css" rel="stylesheet" type="text/css">
+</head>
+<body id="page" onload="init()">
+<!-- BEGIN PAGE HEADER -->
+<table id="pageHeader">
+   <tr>
+      <td class="left" rowspan="3">
+         <a class="noHover" href="index.html" target="_parent">
+         <img src="Res/images/logo.gif" alt=""></a> 
+      </td>
+      <td class="right">
+<!-- BEGIN TOOLS UTILITIES--> 
+<div class="utilities">
+  <span class="command">
+    <a href="index.html" target="_parent">
+      <span class="label">Home</span>
+    </a>
+  </span>
+<span class="utilities_toc">
+|
+  <span class="command">
+    <a href="contents.htm" target="_parent">
+      <span class="label">Table of Contents</span>
+    </a>
+  </span>
+</span>
+<!-- BEGIN HEADER UTILITIES OVERVIEW SNIPPET --> 
+|
+  <span class="command">
+     <a href="map.htm" target="_parent">
+       <span class="label">Overview Map</span>
+     </a>
+  </span>
+<!-- END HEADER UTILITIES OVERVIEW SNIPPET --> 
+
+<!-- BEGIN HEADER UTILITIES LEGEND SNIPPET --> 
+|
+  <span class="command">
+    <a href="javascript:openPopup('legend.htm','Legend','scrollbars=yes,resizable=yes,left=20,top=20,width=240,height=450')"> 
+      <span class="label">Icon Legend</span>
+    </a>
+  </span>        
+<!-- END HEADER UTILITIES LEGEND SNIPPET --> 
+
+</div>
+<!-- END TOOLS UTILITIES--> 
+
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="mapName">用计算机处理数据excel</div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="contactInformation">Your contact information&nbsp;&nbsp;<a href="mailto:info@company.com">info@company.com</a></div>
+      </td>
+   </tr>
+</table>
+<!-- END PAGE HEADER -->
+
+<!-- BEGIN PAGE BODY-->
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+<table>
+  <tr>
+    <td class="outlineColumn">
+    <!-- Ensure minimum width of outline-->
+    <img class="emptyImage" src="Res/images/empty.gif" 
+        width="190" height="1" alt=""><br>									
+<!-- STATIC OUTLINE - START -->
+  <div class="staticOutline">
+  <div class="hometopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="select"><a href="index.html">&nbsp;Home&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic2">&nbsp;1. 认识数据与数据处理技术&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic3">&nbsp;数据的概念&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic4">&nbsp;数据处理的概念&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic5">&nbsp;数据处理的特点&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic6">&nbsp;数据 处理操作&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic7">&nbsp;数据库技术&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic8">&nbsp;2. 认识excel&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic9">&nbsp;EXCEL操作介面&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic10">&nbsp;认识excel工作簿&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic11">&nbsp;数据输入&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic12">&nbsp;数据的操作&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic13">&nbsp;保存数据&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic14">&nbsp;3. 数据处理&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic15">&nbsp;数据运算&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic16">&nbsp;数据分析&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic17">&nbsp;4. 数据打印&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic18">&nbsp;使用格式栏进行美化&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html#Topic19">&nbsp;使用菜单进行美化&nbsp;</a></span>
+  </div>
+
+  </div>
+<!-- STATIC OUTLINE - END -->
+
+    </td>
+    <td class="bodyColumn">
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<table id="pageBody">
+ <col class="main">
+ <col class="right">
+
+
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+<!--BEGIN SNIPPET ITEM IMAGE (Page_Item_Image,Page_Box_CalloutNotes_Item)-->
+  <img  class="topicImage" 
+        width="48"
+        height="48"
+        src="index_img1.gif" 
+        alt="index_img1.gif">
+<!--END SNIPPET BODY ITEM IMAGE-->
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic1"></a>
+          <span class=outlineNumberFirst></span><span class=topicLineFirst>用计算机处理数据excel</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--START PAGE BOX PARTIAL MAP-->
+<div class="partialMapArea">
+  <table id="partialMapTable">
+    <tr>
+      <td>
+        <div class="SubTopicItems">
+
+        </div>
+      </td>
+   
+      <td>
+        <div class="partialMap">
+          <img src="PartialMaps/index.gif" 
+           usemap="#CSIM"
+           alt="">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+<map name="CSIM">
+<area shape="rect" coords="2, 36, 100, 60" href="index.html#Topic2" alt="认识数据与数据处理技术">
+<area shape="rect" coords="101, 36, 161, 60" href="index.html#Topic8" alt="认识excel">
+<area shape="rect" coords="162, 48, 229, 72" href="index.html#Topic14" alt="数据处理">
+<area shape="rect" coords="229, 36, 286, 60" href="index.html#Topic17" alt="数据打印">
+</map>
+<!--END PAGE BOX PARTIAL MAP-->
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+<!--BEGIN SNIPPET ITEM IMAGE (Page_Item_Image,Page_Box_CalloutNotes_Item)-->
+  <img  class="topicImage" 
+        width="30.93079"
+        height="30.93079"
+        src="index_img2.gif" 
+        alt="index_img2.gif">
+<!--END SNIPPET BODY ITEM IMAGE-->
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic2"></a>
+          <span class=outlineNumber>1. </span><span class=topicLine>认识数据与数据处理技术</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic3"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据的概念</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;" size="4"><span style=" font-size:16pt">&#65288;</span></font><font face="Times New Roman" size="4"><span style=" font-size:16pt">1</span></font><font face="&#23435;&#20307;"size="4"><span style=" font-size:16pt">&#65289;&#25968;&#25454;&#26159;&#23558;&#29616;&#23454;&#19990;&#30028;&#20013;&#21508;&#31181;&#20449;&#24687;&#35760;&#24405;&#19979;&#26469;&#30340;&#21487;&#20197;&#35782;&#21035;&#30340;&#31526;&#21495;&#65292;&#26159;&#20449;&#24687;&#30340;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:16pt">&#36733;&#20307;&#65292;</span></font><font face=      "&#23435;&#20307;" size="4"><span style=      " font-size:16pt">&#26159;&#20449;&#24687;&#30340;&#20855;&#20307;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:16pt">&#34920;&#29616;&#24418;&#24335;</span></font><font face="&#23435;&#20307;"      size="4"><span style=      " font-size:16pt">&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;" size="4"><span style=" font-size:16pt">&#65288;</span></font><font face="Times New Roman" size="4"><span style=" font-size:16pt">2</span></font><font face="&#23435;&#20307;"size="4"><span style=" font-size:16pt">&#65289;&#21516;&#26679;&#30340;&#20449;&#24687;&#21487;&#20197;&#29992;&#19981;&#21516;&#24418;&#24335;&#30340;&#25968;&#25454;&#26469;&#34920;&#31034;&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;" size="4"><span style=" font-size:16pt">&#65288;</span></font><font face="Times New Roman" size="4"><span style=" font-size:16pt">3</span></font><font face="&#23435;&#20307;"size="4"><span style=" font-size:16pt">&#65289;&#21253;&#25324;&#65306;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:16pt">&#25968;&#20540;&#25968;&#25454;</span></font><font face="&#23435;&#20307;"      size="4"><span style=      " font-size:16pt">&#12289;</span></font><font face=      "&#23435;&#20307;" color="#FF0000" size="4"><span style=      " font-size:16pt">&#38750;&#25968;&#20540;</span></font><font face=      "&#23435;&#20307;" size="4"><span style=      " font-size:16pt">&#25968;&#25454;&#65288;&#25991;&#23383;&#12289;&#22270;&#24418;&#12289;&#22768;&#38899;&#12289;&#35270;&#39057;&#65289;&#12290;</span></font></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic4"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据处理的概念</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#27867;&#25351;&#35745;&#31639;&#26426;&#22312;&#38750;&#31185;&#25216;&#24037;&#31243;&#26041;&#38754;&#30340;&#25152;&#26377;&#35745;&#31639;&#12289;&#31649;&#29702;&#21644;&#21508;&#31181;&#35745;&#31639;&#12290;</span></font></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic5"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据处理的特点</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#65288;1&#65289;&#25968;&#25454;&#37327;&#22823;&#65292;&#35745;&#31639;&#26041;&#27861;&#30456;&#23545;&#31616;&#21333;&#65307;&#65288;2&#65289;&#38271;&#26399;&#20445;&#23384;&#12289;&#21453;&#22797;&#20351;&#29992;&#65307;&#65288;3&#65289;&#22810;&#20010;&#29992;&#25143;&#20351;&#29992;</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic6"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据 处理操作</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>1</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#23384;&#21462;&#65307;&#65288;</span></font><font face="Times New Roman"><span>2</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#26597;&#25214;&#65307;&#65288;</span></font><font face="Times New Roman"><span>3</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#30340;&#25490;&#24207;&#12289;&#21512;&#24182;&#65307;&#65288;</span></font><font face="Times New Roman"><span>4</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#30340;&#26356;&#26032;&#65307;&#65288;</span></font><font face="Times New Roman"><span>5</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#22797;&#21046;</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic7"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据库技术</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>1</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#38598;&#20013;&#36215;&#26469;&#20197;&#19968;&#23450;&#30340;&#26041;&#24335;&#32452;&#32455;&#65292;&#23384;&#22312;&#35745;&#31639;&#26426;&#30340;&#22806;&#37096;&#23384;&#20648;&#22120;&#20013;&#65307;&#65288;</span></font><font face="Times New Roman"><span>2</span></font><font face="&#23435;&#20307;"><span>&#65289;&#30446;&#30340;&#65306;&#26368;&#20339;&#30340;&#26041;&#24335;&#12289;&#36739;&#23569;&#30340;&#37325;&#22797;&#12289;&#25552;&#20379;&#22810;&#31181;&#26381;&#21153;&#65307;&#65288;</span></font><font face="Times New Roman"><span>3</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#25454;&#24211;&#65288;</span></font><font face="Times New Roman"><span>Data Base</span></font><font face="&#23435;&#20307;"><span>&#65289;&#12289;&#25968;&#25454;&#24211;&#31649;&#29702;&#31995;&#32479;&#65288;</span></font><font face="Times New Roman"><span>DBMS</span></font><font face="&#23435;&#20307;"><span>&#65289;</span></font></div><div align="left"></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+<!--BEGIN SNIPPET ITEM IMAGE (Page_Item_Image,Page_Box_CalloutNotes_Item)-->
+  <img  class="topicImage" 
+        width="30.20549"
+        height="30.20549"
+        src="index_img3.gif" 
+        alt="index_img3.gif">
+<!--END SNIPPET BODY ITEM IMAGE-->
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic8"></a>
+          <span class=outlineNumber>2. </span><span class=topicLine>认识excel</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic9"></a>
+          <span class=outlineNumber></span><span class=topicLine>EXCEL操作介面</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><img src="NotesImages/Topic9NotesImage1.gif"align="bottom" width="408" height="309" border="0" alt="graphic" /></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic10"></a>
+          <span class=outlineNumber></span><span class=topicLine>认识excel工作簿</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#19968;</span></font><font face="&#23435;&#20307;" size="4"><span style=" font-size:16pt">&#20010;</span></font><font face="Times New Roman" size="4"><span style=" font-size:16pt">Excel</span></font><font face="&#23435;&#20307;"size="4"><span style=" font-size:16pt">&#25991;&#20214;&#23601;&#26159;&#19968;&#20010;&#24037;&#20316;&#31807;&#65292;&#26368;&#22810;&#21253;&#21547;&#26377;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:16pt">&#65298;&#65301;&#65301;&#20010;&#24037;&#20316;&#34920;</span></font><font face="&#23435;&#20307;"      size="4"><span style=      " font-size:16pt">&#65292;&#27599;&#24352;&#34920;&#26684;&#20849;&#26377;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:16pt">&#65302;&#65301;&#65301;&#65299;&#65302;&#34892;</span></font><font face="&#23435;&#20307;"      size="4"><span style=      " font-size:16pt">&#21644;</span></font><font face=      "&#23435;&#20307;" color="#FF0000" size="4"><span style=      " font-size:16pt">&#65298;&#65301;&#65302;&#21015;</span></font><font face="&#23435;&#20307;"      size="4"><span style=      " font-size:16pt">&#12290;</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic20"></a>
+          <span class=outlineNumber></span><span class=topicLine>excel区域表示</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic21"></a>
+          <span class=outlineNumber></span><span class=topicLine>单元格--A2</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic22"></a>
+          <span class=outlineNumber></span><span class=topicLine>连续区域--A3:F3</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic11"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据输入</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;" size="4"><span style=" font-size:14pt">&#65288;</span></font><font face="Times New Roman" size="4"><span style=" font-size:14pt">1</span></font><font face="&#23435;&#20307;"size="4"><span style=" font-size:14pt">&#65289;&#25968;&#20540;&#22312;&#21333;&#20803;&#26684;&#20013;&#40664;&#35748;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:14pt">&#21491;&#23545;&#40784;</span></font><font face=      "&#23435;&#20307;" size="4"><span style=      " font-size:14pt">&#65292;&#32780;&#38750;&#25968;&#20540;&#26159;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:14pt">&#24038;&#23545;&#40784;</span></font><font face=      "&#23435;&#20307;" size="4"><span style=      " font-size:14pt">&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;" size="4"><span style=" font-size:14pt">&#65288;</span></font><font face="Times New Roman" size="4"><span style=" font-size:14pt">2</span></font><font face="&#23435;&#20307;"size="4"><span style=" font-size:14pt">&#65289;&#36755;&#20837;&#20197;</span></font><font face="&#23435;&#20307;"      color="#FF0000" size="4"><span style=      " font-size:14pt">&#21333;&#24341;&#21495;</span></font><font face=      "&#23435;&#20307;" size="4"><span style=      " font-size:14pt">&#24320;&#22836;&#30340;&#25968;&#23383;&#26102;&#65292;&#25968;&#23383;&#19981;&#34987;&#35270;&#20026;&#25968;&#20540;&#65292;&#32780;&#35270;&#20026;&#25991;&#26412;&#25110;&#32773;&#20854;&#20182;&#38750;&#25968;&#20540;&#22411;&#25968;&#25454;      &#65307;</span></font></div><div align="left"></div><div align="left"></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic23"></a>
+          <span class=outlineNumber></span><span class=topicLine>数值数据 </span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>1</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#20540;&#22826;&#22823;&#30340;&#25968;&#20250;&#33258;&#21160;&#36716;&#25442;&#25104;&#20026;</span></font><font face="&#23435;&#20307;" color="#FF0000"><span>&#31185;&#23398;&#35745;&#25968;&#27861;</span></font><font face="&#23435;&#20307;"><span>&#65306;&#65297;</span></font><font face="Times New Roman"><span>.32E+10</span></font><font face="&#23435;&#20307;"><span>&#12289;</span></font><font face="Times New Roman"><span>-1.23E-03</span></font><font face="&#23435;&#20307;"><span>&#12289;</span></font><font face="Times New Roman"><span>1.23E+02</span></font><font face="&#23435;&#20307;"><span>&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>2</span></font><font face="&#23435;&#20307;"><span>&#65289;&#25968;&#20540;&#25968;&#25454;&#22826;&#38271;&#65292;&#21333;&#20803;&#26684;&#23485;&#24230;&#19981;&#22815;&#26102;&#65292;&#21482;&#26174;&#31034;&#20960;&#20010;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;" color="#FF0000"><span>&#65283;</span></font><font face="Times New Roman"color="#FF0000"><span>&#8221;</span></font><font face="&#23435;&#20307;"><span>&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>3</span></font><font face="&#23435;&#20307;"><span>&#65289;&#26377;&#35268;&#24459;&#25968;&#25454;&#36755;&#20837;&#65292;&#20351;&#29992;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;"><span>&#25302;&#21160;&#26564;</span></font><font face="Times New Roman"><span>&#8221;</span></font><font face="&#23435;&#20307;"><span>&#65292;&#22914;&#25104;&#31561;&#24046;&#25968;&#21015;</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic24"></a>
+          <span class=outlineNumber></span><span class=topicLine>非数值型数据</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left">&#25991;&#26412;&#12289;&#36135;&#24065;&#12289;&#26085;&#26399;&#8230;&#8230;</div><div align="left"><font face="&#23435;&#20307;"><span>&#21487;&#20197;&#36890;&#36807;&#35843;&#20986;&#35774;&#32622;&#21333;&#20803;&#26684;&#26684;&#24335;--&gt;&#35774;&#32622;&#25968;&#23383;&#26684;&#24335;&#65306;&#25968;&#20540;</span></font><font face="Times New Roman"><span>12345</span></font><font face="&#23435;&#20307;"><span>&#21487;&#35774;&#20026;&#22810;&#31181;&#26684;&#24335;&#20013;&#30340;&#19968;&#31181;&#65292;&#22914;&#65306;&#36135;&#24065;&#65509;</span></font><font face="Times New Roman"><span>12,345</span></font><font face="&#23435;&#20307;"><span>&#65292;&#31185;&#23398;&#35760;&#25968;</span></font><font face="Times New Roman"><span>1.235E+04</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic12"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据的操作</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic25"></a>
+          <span class=outlineNumber></span><span class=topicLine>复制--ctrl</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic26"></a>
+          <span class=outlineNumber></span><span class=topicLine>删除内容--delete</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic13"></a>
+          <span class=outlineNumber></span><span class=topicLine>保存数据</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic27"></a>
+          <span class=outlineNumber></span><span class=topicLine>xls默认扩展名</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+<!--BEGIN SNIPPET ITEM IMAGE (Page_Item_Image,Page_Box_CalloutNotes_Item)-->
+  <img  class="topicImage" 
+        width="30.84091"
+        height="30.84091"
+        src="index_img4.gif" 
+        alt="index_img4.gif">
+<!--END SNIPPET BODY ITEM IMAGE-->
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic14"></a>
+          <span class=outlineNumber>3. </span><span class=topicLine>数据处理</span>
+          <span class="topicIcons">
+<!-- BEGIN SNIPPET ICONS (Page_Icons,Page_Box_CalloutNotes_Item) --> 
+ <img class="topicIcon" width="16" height="16" alt="Risk" 
+      src="MapMarkers/StockIcon-17.gif">
+<!-- END SNIPPET ICONS--> 
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic15"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据运算</span>
+          <span class="topicIcons">
+<!-- BEGIN SNIPPET ICONS (Page_Icons,Page_Box_CalloutNotes_Item) --> 
+ <img class="topicIcon" width="16" height="16" alt="" 
+      src="MapMarkers/StockIcon-13.gif">
+<!-- END SNIPPET ICONS--> 
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic28"></a>
+          <span class=outlineNumber></span><span class=topicLine>公式输入</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>1&#12289;&#23558;&#24120;&#37327;&#12289;&#21464;&#37327;&#12289;&#20989;&#25968;&#29992;&#36816;&#31639;&#31526;&#21495;&#36830;&#25509;&#36215;&#26469;&#30340;&#24335;&#23376;&#31216;&#20026;</span></font><font face="&#23435;&#20307;"      color=      "#FF0000"><span>&#34920;&#36798;&#24335;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>2&#12289;&#36755;&#20837;&#20844;&#24335;&#21069;&#35201;&#20808;&#36755;&#20837;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;"><span>&#65309;</span></font><font face="Times New Roman"><span>&#8221;</span></font><font face="&#23435;&#20307;"><span>&#65292;&#22914;&#65306;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;"><span>&#65309;</span></font><font face="Times New Roman"><span>13.3+34&#8221;</span></font><font face="&#23435;&#20307;"><span>&#12289;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;"><span>&#65309;</span></font><font face="Times New Roman"><span>A3+A4&#8221;</span></font><font face="&#23435;&#20307;"><span>&#12289;</span></font><font face="Times New Roman"><span>=SUM(A2:C5)</span></font></div><div align="left"></div><div align="left">&#22312;&#21333;&#20803;&#26684;&#20013;</div><div align="left">=2010/10</div><div align="left">2010/10</div><div align="left">&#30340;&#21306;&#21035;&#65311;</div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic29"></a>
+          <span class=outlineNumber></span><span class=topicLine>公式复制</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left">1&#12289;&#33258;&#21160;&#25302;&#26564;&#21487;&#20197;&#35762;&#20844;&#24335;&#22797;&#21046;&#21040;&#21035;&#30340;&#21333;&#20803;&#26684;&#65292;&#20844;&#24335;&#30340;&#21547;&#20041;&#19981;&#21457;&#29983;&#25913;&#21464;&#65292;&#20294;&#26159;&#21464;&#37327;&#20250;&#38543;&#20043;&#21457;&#29983;&#21464;&#21270;&#12290;</div><div align="left">2&#12289;&#32534;&#36753;--&gt;&#22797;&#21046;&#65292;&#20063;&#21487;&#20197;&#23454;&#29616;&#21516;&#26679;&#30340;&#25928;&#26524;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic30"></a>
+          <span class=outlineNumber></span><span class=topicLine>简单函数的运用</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="Times New Roman"><span>SUM&#8212;</span></font><font face="&#23435;&#20307;"><span>&#27714;&#21644;&#65307;&#160;&#160;</span></font><font face="Times New Roman"><span>AVERAGE&#8212;</span></font><font face="&#23435;&#20307;"><span>&#27714;&#24179;&#22343;&#25968;&#65307;&#160;&#160;</span></font><font face="Times New Roman"><span>COUNT&#8212;</span></font><font face="&#23435;&#20307;"><span>&#21442;&#25968;&#34920;&#20013;&#25968;&#20540;&#30340;&#20010;&#25968;&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>MAX&#27714;&#26368;&#22823;&#20540;&#65307; &#160;</span></font><font face="Times New Roman"><span>ABS&#8212;</span></font><font face="&#23435;&#20307;"><span>&#27714;&#32477;&#23545;&#20540;&#65307;</span></font><font face="Times New Roman"><span>I &#160;&#160;&#160;&#160; NT&#8212;</span></font><font face="&#23435;&#20307;"><span>&#21462;&#25972;&#65288;&#22235;&#33293;&#20116;&#20837;&#65289;&#65307;&#160;&#160;</span></font><font face="Times New Roman"><span>SQRT&#8212;</span></font><font face="&#23435;&#20307;"><span>&#27714;&#24179;&#26041;&#26681;&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#20363;&#22914;:</span></font></div><div align="left"><font face="Times New Roman"><span>C1</span></font><font face="&#23435;&#20307;"><span>&#21333;&#20803;&#26684;&#30340;&#20844;&#24335;&#26159;&#8220;</span></font><font face="Times New Roman"><span>=A1+B1</span></font><font face="&#23435;&#20307;"><span>&#8221;&#65292;&#24847;&#24605;&#26159;</span><span><b>&#24038;&#20391;&#20004;&#20010;&#21333;&#20803;&#26684;&#30340;&#21644;</b></span><span>&#65292;</span></font></div><div align="left"><font face="Times New Roman"><span>A40</span></font><font face="&#23435;&#20307;"><span>&#30340;&#20844;&#24335;&#26159;&#8220;</span></font><font face="Times New Roman"><span>=average(A1:A39)</span></font><font face="&#23435;&#20307;"><span>&#8221;&#24847;&#24605;&#26159;</span><span><b>&#19978;&#26041;</b></span></font><font face="Times New Roman"><span><b>39</b></span></font><font face="&#23435;&#20307;"><span><b>&#20010;&#21333;&#20803;&#26684;&#30340;&#24179;&#22343;&#20540;</b></span><span>&#12290;</span></font></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic16"></a>
+          <span class=outlineNumber></span><span class=topicLine>数据分析</span>
+          <span class="topicIcons">
+<!-- BEGIN SNIPPET ICONS (Page_Icons,Page_Box_CalloutNotes_Item) --> 
+ <img class="topicIcon" width="16" height="16" alt="" 
+      src="MapMarkers/StockIcon-13.gif">
+<!-- END SNIPPET ICONS--> 
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic31"></a>
+          <span class=outlineNumber></span><span class=topicLine>排序</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="Times New Roman"><span>1</span></font><font face="&#23435;&#20307;"><span>&#65289;&#31616;&#21333;&#25490;&#24207;&#65306;&#22914;&#25353;&#24635;&#20998;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;&#12290;&#25805;&#20316;&#65306;&#21333;&#20987;&#24635;&#20998;&#30340;&#20219;&#19968;&#20010;&#21333;&#20803;&#26684;</span></font><font face="Times New Roman"><span>&#8212;</span></font><font face="&#23435;&#20307;"><span>&#24037;&#20855;&#26639;&#19978;&#30340;&#8220;&#38477;&#24207;&#25490;&#21015;&#8221;&#25353;&#38062;</span></font><img src="NotesImages/Topic31NotesImage30.gif"     align="bottom" width="21" height="22" border="0" alt=     "graphic" /><font face=     "&#23435;&#20307;"><span><b>&#65307;</b></span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>2</span></font><font face="&#23435;&#20307;"><span>&#65289;&#22797;&#26434;&#25490;&#24207;&#65292;&#22914;&#25353;&#24635;&#20998;&#20174;&#39640;&#21040;&#20302;&#25490;&#24207;&#65292;&#33509;&#20998;&#25968;&#30456;&#21516;&#30340;&#65292;&#25353;&#25968;&#23398;&#20174;&#39640;&#21040;&#20302;&#25490;&#12290;&#25805;&#20316;&#65306;</span><span><b>&#8220;&#25968;&#25454;&#8221;&#33756;&#21333;</b></span></font><font face="Times New Roman"><span><b>&#8212;</b></span></font><font face="&#23435;&#20307;"><span><b>&#8220;&#25490;&#24207;&#8221;</b></span><span>&#65292;&#25509;&#30528;&#22312;&#8220;&#25490;&#24207;&#8221;&#23545;&#35805;&#26694;&#20013;&#35774;&#32622;&#20027;&#20851;&#38190;&#23383;&#20026;&#8220;&#24635;&#20998;&#8221;&#65292;&#27425;&#20851;&#38190;&#23383;&#20026;&#8220;&#25968;&#23398;&#8221;&#24182;&#19988;&#8220;&#26377;&#26631;&#39064;&#12290;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#65288;</span></font><font face="Times New Roman"><span>3</span></font><font face="&#23435;&#20307;"><span>&#65289;&#20063;&#21487;&#25353;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;"><span>&#22995;&#21517;</span></font><font face="Times New Roman"><span>&#8221;</span></font><font face="&#23435;&#20307;"><span>&#12289;</span></font><font face="Times New Roman"><span>&#8220;</span></font><font face="&#23435;&#20307;"><span>&#24615;&#21035;</span></font><font face="Times New Roman"><span>&#8221;</span></font><font face="&#23435;&#20307;"><span>&#25490;&#24207;</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic32"></a>
+          <span class=outlineNumber></span><span class=topicLine>分类汇总</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"></div><div align="left"><font face="&#23435;&#20307;"><span>&#22914;&#22270;&#20998;&#21035;&#27714;&#20986;&#30007;&#22899;&#29983;&#30340;&#36523;&#39640;&#12289;&#35270;&#21147;&#24179;&#22343;&#20540;&#23601;&#26159;&#25353;&#8220;&#24615;&#21035;&#8221;&#20998;&#31867;&#27719;&#24635;&#12290;&#25805;&#20316;&#20998;&#20004;&#27493;&#65306;</span></font><font face="Times New Roman"><span>A</span></font><font face="&#23435;&#20307;"><span><b>&#25353;&#24615;&#21035;&#25490;&#24207;</b></span><span>&#65288;&#20855;&#20307;&#25805;&#20316;&#30053;&#65307;&#65289;</span></font></div><div align="left"><font face="Times New Roman"><span>B.</span></font><font face="&#23435;&#20307;"><span><b>&#8220;&#25968;&#25454;&#8221;&#33756;&#21333;</b></span></font><font face="Times New Roman"><span><b>&#8212;</b></span></font><font face="&#23435;&#20307;"><span><b>&#8220;&#20998;&#31867;&#27719;&#24635;&#8221;</b></span><span>&#65292;&#25509;&#30528;&#22312;&#8220;&#20998;&#31867;&#27719;&#24635;&#8221;&#23545;&#35805;&#26694;&#20013;&#35774;&#32622;&#12290;</span></font><img src="NotesImages/Topic32NotesImage59.jpg"     align="bottom" width="194" height="221" border="0" alt=     "graphic" /></div><div align="left">&#24471;&#20986;&#22914;&#19979;&#22270;&#30340;&#25928;&#26524;</div><div align="left"><img src="NotesImages/Topic32NotesImage69.gif"align="bottom" width="406" height="337" border="0" alt="graphic" /></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic33"></a>
+          <span class=outlineNumber></span><span class=topicLine>筛选</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#31579;&#36873;&#65288;&#31526;&#21512;&#26465;&#20214;&#30340;</span></font><font face="&#23435;&#20307;"      color=      "#FF0000"><span>&#26174;&#31034;</span></font><font face=      "&#23435;&#20307;"><span>&#20986;&#26469;&#65292;&#20854;&#23427;&#26242;&#26102;</span></font><font face="&#23435;&#20307;"      color=      "#FF0000"><span>&#38544;&#34255;</span></font><font face=      "&#23435;&#20307;"><span>&#65289;&#65292;&#22914;&#31579;&#36873;&#20986;&#8220;&#36523;&#39640;&#8221;&#19981;&#20302;&#20110;</span></font><font face="Times New Roman"><span>1.65</span></font><font face="&#23435;&#20307;"><span>&#19988;&#8220;&#26159;&#8221;&#22242;&#21592;&#30340;&#21516;&#23398;&#65292;&#25805;&#20316;&#65306;</span></font><font face="Times New Roman"><span><b>&#8220;</b></span></font><font face="&#23435;&#20307;"><span><b>&#25968;&#25454;</b></span></font><font face="Times New Roman"><span><b>&#8221;</b></span></font><font face="&#23435;&#20307;"><span><b>&#33756;&#21333;</b></span></font><font face="Times New Roman"><span><b>&#8212;&#8220;</b></span></font><font face="&#23435;&#20307;"><span><b>&#31579;&#36873;</b></span></font><font face="Times New Roman"><span><b>&#8221;&#8212;&#8220;</b></span></font><font face="&#23435;&#20307;"><span><b>&#33258;&#21160;&#31579;&#36873;</b></span></font><font face="Times New Roman"><span><b>&#8221;</b></span></font><font face="&#23435;&#20307;"><span>&#65292;&#25509;&#30528;&#22312;&#34920;&#26684;&#20013;&#25805;&#20316;&#12290;</span></font></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic34"></a>
+          <span class=outlineNumber></span><span class=topicLine>图表</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic35"></a>
+          <span class=outlineNumber></span><span class=topicLine>图表类型</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#22270;&#34920;&#31867;&#22411;&#65306;</span></font></div><div align="left"><img src="NotesImages/Topic35NotesImage8.gif"align="bottom" width="144" height="321" border="0" alt="graphic" /></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic36"></a>
+          <span class=outlineNumber></span><span class=topicLine>插入图表</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><font face="&#23435;&#20307;"><span>&#25554;&#20837;&#22270;&#34920;&#27493;&#39588;&#65306;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>1&#12289;&#21333;&#20987;&#24037;&#20855;&#26639;&#19978;&#30340;&#8220;</span></font><img src="NotesImages/Topic36NotesImage20.gif"     align="bottom" width="18" height="16" border="0" alt=     "graphic" /><font face=     "&#23435;&#20307;"><span><b>&#8221;</b></span><span>&#65292;&#25110;</span><span><b>&#8220;&#25554;&#20837;&#8221;&#33756;&#21333;</b></span></font><font face="Times New Roman"><span><b>&#8212;</b></span></font><font face="&#23435;&#20307;"><span><b>&#8220;&#22270;&#34920;&#8221;</b></span><span>&#36873;&#39033;&#65292;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>2&#12289;&#25509;&#30528;&#22312;&#8220;&#22270;&#34920;&#21521;&#23548;&#8221;&#23545;&#35805;&#26694;&#65292;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#31532;&#19968;&#27493;&#36873;&#8220;&#22270;&#34920;&#31867;&#22411;&#8221;&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#31532;&#20108;&#27493;&#36873;&#8220;&#25968;&#25454;&#28304;&#8221;&#65292;&#21363;&#25968;&#25454;&#21306;&#22495;&#65307;</span></font><font face="&#23435;&#20307;"      color=      "#FF0000"><span>&#65288;&#22270;&#34920;&#20013;&#30340;&#25968;&#20540;&#21487;&#20197;&#38543;&#30528;&#25968;&#25454;&#34920;&#30340;&#20540;&#21457;&#29983;&#21464;&#21270;      &#65289;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#31532;&#19977;&#27493;&#8220;&#22270;&#34920;&#36873;&#39033;&#8221;&#65307;</span></font></div><div align="left"><font face="&#23435;&#20307;"><span>&#31532;&#22235;&#27493;&#8220;&#22270;&#34920;&#20301;&#32622;&#8221;&#21363;&#26159;&#8220;&#20570;&#20026;&#23545;&#35937;&#25554;&#20837;&#8221;&#21040;&#26412;&#34920;&#26684;&#25110;&#8220;&#20570;&#20026;&#26032;&#24037;&#20316;&#34920;&#25554;&#20837;&#8221;&#12290;</span></font></div><div align="left">&#160;</div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+<!--BEGIN SNIPPET ITEM IMAGE (Page_Item_Image,Page_Box_CalloutNotes_Item)-->
+  <img  class="topicImage" 
+        width="30.20549"
+        height="30.20549"
+        src="index_img5.gif" 
+        alt="index_img5.gif">
+<!--END SNIPPET BODY ITEM IMAGE-->
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic17"></a>
+          <span class=outlineNumber>4. </span><span class=topicLine>数据打印</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic18"></a>
+          <span class=outlineNumber></span><span class=topicLine>使用格式栏进行美化</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><img src="NotesImages/Topic18NotesImage1.jpg"align="bottom" width="528" height="109" border="0" alt="graphic" /></div><div align="left"><font face="&#23435;&#20307;"><span>&#35774;&#32622;&#36793;&#26694;&#32447;&#65306;&#36873;&#20013;&#21333;&#20803;&#26684;&#65292;&#21333;&#20987;&#8220;&#36793;&#26694;&#8221;&#25353;&#38062;&#20013;&#30340;&#26576;&#31181;&#8220;&#36793;&#26694;&#8221;&#12290;</span></font></div><div align="left"><img src="NotesImages/Topic18NotesImage23.gif"align="bottom" width="106" height="103" border="0" alt="graphic" /></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic19"></a>
+          <span class=outlineNumber></span><span class=topicLine>使用菜单进行美化</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><img src="NotesImages/Topic19NotesImage1.jpg"align="bottom" width="518" height="206" border="0" alt="graphic" /></div><div align="left">&#36824;&#21487;&#20197;&#28165;&#38500;&#26684;&#24335;&#65306;</div><div align="left"><img src="NotesImages/Topic19NotesImage11.gif"align="bottom" width="339" height="80" border="0" alt="graphic" /></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+
+
+<!-- BEGIN TOP BUTTON -->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <div class="body">
+      <div class="topCommand">
+        <span class="commands">
+	  <span class="command">
+            <img src="Res/images/top_button.gif" alt=""> 
+	      <a href="javascript:scroll(0,0)">
+	         <span class="label">Top</span>
+              </a>
+ 	</span>
+       </span>
+      </div>
+    </div>
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!-- END TOP BUTTON -->
+
+</table>
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+    </td>
+  </tr>
+</table> 
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<!-- END PAGE BODY-->
+
+<!---BEGIN FOOTER-->
+<table id="pageFooter">
+   <tr>
+      <!-- reserved for image <td class="left" rowspan="2"></td>-->
+      <td class="center" rowspan="2">
+         <div class="footerText">Your footer text</div>
+      </td>
+      <td class="right">
+         <div class="hyperlink">
+            <span>   
+               <a href="http://www.mindjet.com/" target="_blank">Powered By Mindjet MindManager</a>
+            </span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+         <div class="lastUpdated">
+            <span>Last updated:</span>
+            <span>2012-3-26</span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+     <td></td>
+   </tr>
+</table>
+<!---END FOOTER-->
+
+
+</body>
+</html>
+
